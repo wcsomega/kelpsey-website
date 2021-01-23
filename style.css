@@ -1,10 +1,10 @@
 body {
   /* background-image: url("assets/images/gradient-grid-background-small.png"); */
   background-image: url("/assets/images/pixel.png"), linear-gradient(to bottom, #305d55, #2d5c6b, #51336b, #6b3c5f);
-  background-size: auto, cover;
+  background-size: auto, 100vw 100vh;
   background-repeat: repeat, no-repeat;
-  background-position: center center;
-  min-height: 100vh;
+  background-position: center center, center top;
+  background-attachment: local, fixed;
 }
 
 .navbar {
