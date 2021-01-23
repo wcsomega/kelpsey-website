@@ -1,6 +1,12 @@
-body {background-image: url("assets/images/gradient-grid-background-small.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;}
+body {
+  /* background-image: url("assets/images/gradient-grid-background-small.png"); */
+  background-image: url("/assets/images/pixel.png"), linear-gradient(to bottom, #305d55, #2d5c6b, #51336b, #6b3c5f);
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
 
-.navbar { background-color: rgba(0,0,0,0.65) !important;}
+.navbar {
+  background-color: rgba(0,0,0,0.65) !important;
+}
