@@ -10,3 +10,45 @@ body {
 .navbar {
   background-color: rgba(0,0,0,0.65) !important;
 }
+
+.block-soc {
+  width: 150px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.block-soc > img {
+  width:150px;
+  height:auto;
+  position: absolute;
+  top: 20%;
+  left: -50px;
+}
+
+.opacity-2 {
+  opacity: 0.2;
+}
+
+.opacity-4 {
+  opacity: 0.4;
+}
+
+.bg-twitch-purple {
+  background-color: #6441a4;
+}
+
+.bg-yt-red {
+  background-color: red;
+}
+
+.bg-twitter-blue {
+  background-color: #1da1f2;
+}
+
+.bg-insta-pink {
+  background-color: #d42b6a;
+}
