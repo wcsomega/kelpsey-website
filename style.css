@@ -1,0 +1,6 @@
+body {background-image: url("images/gradient\ grid\ background\ small.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;}
+
+.navbar { background-color: rgba(0,0,0,0.65) !important;}
